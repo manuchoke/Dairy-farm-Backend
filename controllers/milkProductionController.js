@@ -1,4 +1,4 @@
-const MilkProduction = require("../models/MilkProduction");
+const MilkProduction = require("../models/milkProduction");
 const Animal = require("../models/Animal");
 
 // Add a new milk production record

@@ -8,7 +8,7 @@ const {
   updateMilkProduction,
   deleteMilkProduction
 } = require("../controllers/milkProductionController");
-const MilkProduction = require("../models/MilkProduction");
+const MilkProduction = require("../models/milkProduction");
 const { protect } = require('../middleware/authMiddleware');
 // Add a new milk production record
 router.post("/", protect, addMilkProduction);
