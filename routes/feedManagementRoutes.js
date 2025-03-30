@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const FeedManagement = require("../models/FeedManagement"); // Correct import
+const FeedManagement = require("../models/feedmanagement"); // Correct import
 const { protect } = require('../middleware/authMiddleware');
 
 
