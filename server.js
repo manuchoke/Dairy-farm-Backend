@@ -33,8 +33,8 @@ app.use(express.urlencoded({ extended: true }));
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Your frontend URL
-  credentials: true
+  origin: '*', // Your frontend URL
+  // credentials: true
 }));
 app.use(bodyParser.json()); // Parse JSON request bodies
 
